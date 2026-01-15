@@ -23,3 +23,5 @@ cd ~/soft
 git clone https://aur.archlinux.org/vesktop.git
 cd vesktop
 makepkg -sri
+
+sudo pacman -S cmus libmad
