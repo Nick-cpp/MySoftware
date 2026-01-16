@@ -24,4 +24,9 @@ git clone https://aur.archlinux.org/vesktop.git
 cd vesktop
 makepkg -sri
 
+cd ~/soft
+git clone https://aur.archlinux.org/zen-browser
+cd zen-browser
+makepkg -sri
+
 sudo pacman -S cmus libmad
