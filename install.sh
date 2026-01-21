@@ -37,6 +37,8 @@ echo "Installing zen browser..."
 cd ~/soft
 git clone https://aur.archlinux.org/zen-browser
 cd zen-browser
+echo "Compiling browser :)"
+wait 2
 makepkg -sri
 
 # Install cmus
